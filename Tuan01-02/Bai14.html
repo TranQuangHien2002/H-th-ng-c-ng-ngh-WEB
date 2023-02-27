@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai14</title>
+    <style>
+        .container div{
+        
+            display: flex;
+        }
+       
+        .container .email input{
+            width: 200px;
+            height: 20px;
+            margin-top: 10px;
+            margin-left: 95px;
+        }
+        .container .message input{
+            margin-left: 110px;
+            height: 120px;
+            width: 300px;
+        }
+        .container .select select{
+            margin-top: 15px;
+            margin-left: 7px;
+            height: 20px;
+        }
+        .container .checkbox input{
+            margin-left: 95px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Contact Us</b></h1>
+        <p>Use the following from to send a message to Example Cafe</p>
+        <div class="email">
+            <p>Your email</p>
+            <input type="email">
+        </div>
+        <div class="message">
+            <p>Message</p>
+            <input type="text" >
+        </div>
+        <div class="select">
+            <p>How did you hear of us?</p>
+            <select name="" id="">
+                <option value="">Google</option>
+                <option value="">Yahoo</option>
+                <option value="">Microsoft Edge</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <p>Newsletter</p>
+            <input type="checkbox" name="" id="">
+            <p>Ensure this box is checked if you would like to receive email updates</p>
+            
+        </div>
+        <div>
+            <button type="reset"> Send message</button>
+        </div>
+    </div>
+</body>
+</html>
