@@ -1,0 +1,98 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 910px;
+    background-color: bisque;
+}
+
+#right {
+    width: 440px;
+    background-color: aqua;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+.center-top a{
+    font-size: 25px;
+    text-decoration: none; /*xóa gạch chân link a*/
+    color: black;
+}
+.center-item img{
+    width: 100%;
+}
+.center-buttom{
+    display: flex;
+}
+.center-buttom img{
+    width: 20px;
+}
+.center-buttom-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 35px 35px;
+    background-color: rgb(247, 10, 89)
+}
+.center-buttom-2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.center-item3 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom img{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.bottom button{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px; color: aliceblue; 
+    background-color: red;
+    border-radius: 5px 5px;
+}          
