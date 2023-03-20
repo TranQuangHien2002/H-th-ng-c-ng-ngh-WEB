@@ -1,0 +1,50 @@
+html,body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+.menu-item-main, .menu-item-right{
+    display: inline-block;
+    margin: auto 10px;
+}
+.menu-item-main{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.center{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.center__firts{
+    flex: 1;
+}
+.center__second{
+    margin-right: 200px;
+    flex: 1;
+}
+
+.container3a__a{
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.container3a{
+    display: inline-block;
+}
