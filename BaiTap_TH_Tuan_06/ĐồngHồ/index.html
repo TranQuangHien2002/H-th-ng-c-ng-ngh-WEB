@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đồng hồ</title>
-    <link rel="stylesheet" href="dong_ho.css">
-    <script src="dong_ho.js"></script>
+    <link rel="stylesheet" href="..//ĐồngHồ/dong_ho.css">
+    <title>StopWatch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="container">
-        <h1 class="timer">
-            <span class="minutes">00</span> :
-            <span class="seconds">00</span> .
-            <span class="milliseconds">00</span>
-        </h1>
-        <div class="bottomPart">
-            <div class="btns">  
-                <button class="reset">Reset</button>
-                <button class="toggle">Start</button>
-                <button class="lap">Lap</button>
+    
+    <main>
+        <div class="w-screen h-screen text-center">
+            <div class="inline-block">
+                <div class="mb-8 mt-32 flex items-center justify-center">
+                    <p class="text-2xl" id="hours">00</p>:
+                    <p class="text-2xl" id="minutes">00</p>:
+                    <p class="text-2xl" id="second">00</p>
+                </div>
+                <div class="flex justify-center space-x-2">
+                    <button id="start-btn" class="px-4 py-2">
+                        Start
+                    </button>
+                    <button id="stop-btn" class="px-4 py-2">
+                        Stop
+                    </button>
+                    <button id="reset-btn" class="px-4 py-2">
+                        Reset
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+    
+    <script src="..//ĐồngHồ/dong_ho.js"></script>
 </body>
 </html>
